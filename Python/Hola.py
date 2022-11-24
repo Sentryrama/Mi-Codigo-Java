@@ -1,0 +1,1 @@
+print('Mucho gusto en conocerte',input('Ingresa tu nombre: '))
