@@ -1,3 +1,5 @@
+package Day1;
+
 import java.util.Scanner;
 public class Hola{
     static Scanner sc = new Scanner(System.in);
