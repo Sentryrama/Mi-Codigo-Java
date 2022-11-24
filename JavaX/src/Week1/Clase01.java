@@ -8,4 +8,5 @@ public class Clase01 {
     public static void adios(){
         System.out.println("Adios Mundo");
     }
+    
 }

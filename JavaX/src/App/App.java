@@ -1,5 +1,7 @@
 package App;
+
 import Week1.*;
+import Practicas.*;
 
 /*
  * Esta class se utiliza para Ejecutar lo que se haga en el curso
@@ -9,8 +11,8 @@ import Week1.*;
 public class App{
 
     public static void main(String[] args) {
-        Clase01.hola();
-        Clase01.adios();
+        Practica01.fun();
+ 
     }
 
 
@@ -41,7 +43,7 @@ public class App{
         
     */
 
-    /*  Datos no Primitivos (Pueden ser null)
+    /*  Datos No Primitivos (Pueden ser null)
     
         String  chars;  //Default = null    [Caracteres unidos o arreglo de char-s]
         
