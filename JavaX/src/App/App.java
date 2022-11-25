@@ -16,7 +16,6 @@ public class App{
 
 
     /*
-    public static void tipos_de_datos(){
         
         //Datos numericos enteros
         byte  numero1;  //Default = 0       [-128 to 127]
@@ -34,6 +33,6 @@ public class App{
         //Datos de caracteres
         char caracter;  //Default = \u0000  [Un solo caracter ya sea numerico o simbolico]
         String  chars;  //Default = null    [Caracteres unidos o arreglo de char-s]
-    }
+    
     */
 }
