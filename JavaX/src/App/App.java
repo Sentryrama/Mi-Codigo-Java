@@ -1,5 +1,5 @@
 package App;
-import Day1.*;
+import Week1.*;
 
 /*
  * Esta class se utiliza para Ejecutar lo que se haga en el curso
@@ -10,12 +10,18 @@ public class App{
 
     public static void main(String[] args) {
         Clase01.hola();
+        Clase01.adios();
     }
 
 
 
 
-    /*
+
+
+
+
+
+    /*  Datos Primitivos (No pueden ser null)
         
         //Datos numericos enteros
         byte  numero1;  //Default = 0       [-128 to 127]
@@ -32,7 +38,56 @@ public class App{
 
         //Datos de caracteres
         char caracter;  //Default = \u0000  [Un solo caracter ya sea numerico o simbolico]
-        String  chars;  //Default = null    [Caracteres unidos o arreglo de char-s]
+        
+    */
+
+    /*  Datos no Primitivos (Pueden ser null)
     
+        String  chars;  //Default = null    [Caracteres unidos o arreglo de char-s]
+        
+        Integer numero1;    // int
+        Long    numero2;    // long
+        Float   numero3;    // float
+        Double  numero4;    //double
+        
+    */
+
+    /*  Operadores
+
+    // Aritmeticos  
+        [ + ]   Suma
+        [ - ]   Resta
+        [ * ]   Multiplicación
+        [ / ]   División
+        [ % ]   Módulo
+
+        // Asignacion
+            [ = ]   Asigna el valor que resulte en la parte derecha a la variable que de la izquierda
+            
+            // Asignacion con operacion incluida
+                [ += ]
+                [ -= ]
+                [ *= ]
+                [ /= ]
+                [ %= ]
+
+            // Incremento
+                [ ++ ]  Aumenta en 1 a la variable ó número
+
+            // Decremento
+                [ -- ]  Decrementa en 1 a la variable ó número
+
+        // Lógicos
+            [ > ]   Mayor que 
+            [ >= ]  Mayor o igual que
+            [ < ]   Menor que 
+            [ <= ]  Menor o igual que
+            [ == ]  Igual que  
+            [ != ]  Diferente que 
+            
+            [ && ]  and
+            [ || ]  or
+            [ ! ]   not
+
     */
 }
