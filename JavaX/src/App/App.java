@@ -11,8 +11,8 @@ import Practicas.*;
 public class App{
 
     public static void main(String[] args) {
-        Practica01.fun();
- 
+        Practica02.fun();
+        
     }
 
 
