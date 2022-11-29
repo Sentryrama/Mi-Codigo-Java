@@ -1,6 +1,6 @@
 package App;
 
-import Week1.*;
+//import Week1.*;
 import Practicas.*;
 
 /*
@@ -11,7 +11,7 @@ import Practicas.*;
 public class App{
 
     public static void main(String[] args) {
-        Practica02.fun();
+        Practica03.fun();
         
     }
 
