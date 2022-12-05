@@ -1,7 +1,8 @@
 package App;
 
 //import Week1.*;
-import Practicas.*;
+//import Practicas.*;
+import Examenes.*;
 
 /*
  * Esta class se utiliza para Ejecutar lo que se haga en el curso
@@ -11,8 +12,7 @@ import Practicas.*;
 public class App{
 
     public static void main(String[] args) {
-        Practica05 objeto = new Practica05();
-        objeto.fun();
+        Examen01.fun();
         
     }
 

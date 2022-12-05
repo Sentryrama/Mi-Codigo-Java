@@ -21,16 +21,12 @@ public class Practica04 {
             case 3 -> figura("rectangulo");
             case 4 -> figura("circulo");
         }
-
-        
-
     }
 
     private static void menu() {
         System.out.print("Seleciona una figura:\n1-Triángulo\n" +
                 "2-Cuadrado\n3-Rectángulo\n4-Círculo\n-------:");
     }
-
     private static void figura(String figura) {
         switch (figura) {
             case "triangulo"    -> {medidas("a");       operaciones(1);}
@@ -46,10 +42,8 @@ public class Practica04 {
             case 3 -> {System.out.println("Área: "+area); 
             System.out.println("Perimetro: "+perimetro);}
             default -> System.out.println("No Existe la opción, inicia de nuevo");
-
         }
     }
-
     private static void medidas(String figura) {
         if(figura == "circulo"){
             uno("el radio: ");
@@ -84,5 +78,4 @@ public class Practica04 {
             perimetro = (radio * 2) * Math.PI;
         }
     }
-
 }
