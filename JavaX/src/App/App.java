@@ -11,7 +11,8 @@ import Practicas.*;
 public class App{
 
     public static void main(String[] args) {
-        Practica04.fun();
+        Practica05 objeto = new Practica05();
+        objeto.fun();
         
     }
 
