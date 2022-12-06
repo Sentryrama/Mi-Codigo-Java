@@ -12,7 +12,7 @@ import Examenes.*;
 public class App{
 
     public static void main(String[] args) {
-        Examen01.fun();
+        Examen02.fun();
         
     }
 
