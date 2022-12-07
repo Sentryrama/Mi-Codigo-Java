@@ -23,10 +23,9 @@ public class App{
 
 
 
-
     /*  Datos Primitivos (No pueden ser null)
         
-        //Datos numericos enteros
+    //Datos numericos enteros
         byte  numero1;  //Default = 0       [-128 to 127]
         short numero2;  //Default = 0       [-32,768 to 32,767]
         int   numero3;  //Default = 0       [-2,147,483,648 to 2,147,483,647]
